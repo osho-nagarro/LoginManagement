@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class LibraryLoginSystemApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LibraryLoginSystemApplication.class, args);
+		SpringApplication.run( LibraryLoginSystemApplication.class, args );
 	}
 	
 	 @Bean
