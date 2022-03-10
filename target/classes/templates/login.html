@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+        <style>
+            .center{
+                margin: auto;
+                width: 80%;
+                height: 40%;
+                padding: 40px;
+            }
+            .center1{
+                background-color: #ebf1f7;
+                border: 5px solid #d8e3f0;
+                margin: auto;
+                width: 60%;
+                height: 90%;
+                padding: 40px;
+                text-align: center;
+            }
+            input[type=submit]{
+                font-size:16px;
+                align-content: right;
+                background-color:#ebf1f7;
+                border:2px solid #0b3164;
+                font-style: color #0b3164;
+                padding:10px 17px;
+                text-align: right;
+                cursor: pointer;
+            }
+            h3{
+                text-align: left;
+                border-bottom: 2px solid #0b3164;
+            }
+            table{
+                margin: auto;
+            }
+            .container {
+            padding: 16px;
+            }
+            .psw {
+            text-align: right;
+            padding-top: 16px;
+            }
+            #border{
+                border-top: 2px sloid #0b3164;
+                border-bottom: 2px solid #0b3164;
+            }
+        </style>
+</head>
+<body class = "center">
+<form class="center1" action= "login" method="post">
+            <h3>LOGIN </h3>
+            <table>
+                <tr>
+                    <td><b>Username :</b></td>
+                    <td><input type="text" name="username" id="username" required></td>
+                </tr>
+                <tr>
+                    <td><b>Password :</b></td>
+                    <td><input type="password" name="password" id="password" required></td>
+                </tr>
+                <tr>
+                    <td class="psw"><a href="#">Forgotten your password?</a></td>
+                </tr>
+                <tr><td colspan="2">&nbsp;</td></tr>
+                <tr>
+                    <td><input type="submit"  value="Login" id="submit">&nbsp;</a></td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>
